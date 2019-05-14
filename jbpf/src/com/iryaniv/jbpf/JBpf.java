@@ -1,6 +1,6 @@
 package com.iryaniv.jbpf;
 
-class JBpf {
+public class JBpf {
     private native int validate(String filter, byte[] packet);
 
     public boolean checkBpf(String filter, byte[] packet) {
